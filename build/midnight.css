@@ -57,7 +57,7 @@ body {
     .chat_f75fb0 > .header__0b563  /* server channels and roles header */,
     .chat_f75fb0 > .container__0b563 /* server channels and roles page */ {
         background-color: var(--background-base-lower);
-        border-radius: var(--radius-xs);
+        border-radius: 0;
         border: var(--border-thickness) solid var(--border-subtle);
         backdrop-filter: var(--panel-backdrop-filter);
         box-sizing: border-box;
@@ -323,7 +323,7 @@ body {
         top: 12px;
         left: 12px;
         right: 12px;
-        border-radius: var(--radius-sm);
+        border-radius: 0;
         padding: 0 8px;
     }
 
@@ -344,7 +344,7 @@ body {
 
     /* general chat bar improvements */
     .channelTextArea_f75fb0 /* chat bar */ {
-        border-radius: var(--radius-md);
+        border-radius: 0;
     }
     .themedBackground__74017 /* chat bar inner */ {
         background: none;
