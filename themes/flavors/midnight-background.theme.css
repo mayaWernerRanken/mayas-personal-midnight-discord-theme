@@ -20,7 +20,7 @@ body {
     font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
     /* sizes */
-    --gap: 12px; /* spacing between panels */
+    --gap: 8px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
     --border-thickness: 1px; /* thickness of borders around main panels. DOES NOT AFFECT OTHER BORDERS */
 
@@ -59,7 +59,7 @@ body {
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
     --transparency-tweaks: on; /* off: no changes, on: remove some elements for better transparency */
     --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
-    --panel-blur: on; /* off: no changes, on: blur the background of panels */
+    --panel-blur: off; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
     --bg-floating: hsl(18, 32%, 8%); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
